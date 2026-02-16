@@ -1,3 +1,3 @@
 <?php
 $sql = "SELECT * FROM profiles";
-// ToDo: Kör SQL kod på databasen
+// ToDo: Run the SQL query on the database

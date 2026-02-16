@@ -1,9 +1,8 @@
 <?php
 // Start the session
 session_start();
-// Allt möjligt viktigt som vi använder ofta, sessionshantering, form validation etc.
 
-// En funktion som tar bort whitespace, backslashes (escape char) och gör om < till html safe motsvarigheter
+// An easy way of sanitizing user input, run all user submitted data through this one to prevent XSS
 function test_input($data) {
     $data = trim($data);
     $data = stripslashes($data);
@@ -11,13 +10,13 @@ function test_input($data) {
     return $data;
 }
 
-// Databaskonfiguration
+// Database configuration
 $servername = "localhost";
 $dbname = "bistromd";
 $username = "bistromd";
-include "hemlis.php";
-// hemlis.php ser ut såhär:
-// <?php $password = "sup3rh3mlis";
+include "secrets.php";
+// secrets.php looks something like this:
+// <?php $password = "sup3rs3cr3t";
 
 
 ?>

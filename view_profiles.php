@@ -1,6 +1,6 @@
-<h2>Annonser</h2>
-<p>Följande annonser finns på dejtingsajten</p>
+<h2>Ads</h2>
+<p>The following users have registered on the site</p>
 
 <?php include "model_profiles.php" ?>
 
-<!-- ToDo: Visa upp annonserna vettigt -->
+<!-- ToDo: Present the dating ads in a nice way -->

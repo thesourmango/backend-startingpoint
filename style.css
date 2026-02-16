@@ -1,9 +1,9 @@
-/* Dennis snygga stilfil */
+/* Dennis custom styling */
 
-/* Sidhuvudet logo, firmanamn och nav */
+/* Site header, logo, company name and nav */
 header {
     background-color: #1abc9c;
-    display: flex;  /* logon och nav är flex items */
+    display: flex;  /* The logo and the nav are flex items */
     align-items: center;
 }
 header img {
@@ -18,30 +18,30 @@ header img {
     font-size: xx-large;
 }
 
-/* Huvudmenyn */
+/* Main menu */
 nav {
-    margin-left: auto;  /* skuffar menyn till högra kanten */
+    margin-left: auto;  /* Aligns the menu to the right */
 }
 nav ul {
-    margin: 0px 10px; /* bort med inbyggd marginal (shortand 2) */
-    padding: 0; /* Bort med inbyggd padding */
+    margin: 0px 10px; /* remove built in margins (shortand 2) */
+    padding: 0; /* Remove built in padding */
 }
 nav li {
-    list-style: none;   /* bort med bollar */
-    float: left;  /* ordna element bredvid varann på desktop */
-    padding: 10px; /* lite till luft runt li */
+    list-style: none;   /* remove ugly built in list styling */
+    float: left;  /* arrange li items next to one another on desktop */
+    padding: 10px; /* add some airyness between elements */
 }
 nav li > a {
-    text-decoration: none; /* bort med underline */
-    color: white; /* bort med inbyggd blå/lila text */
-    padding: 8px;                   /* Förberedelse för hover */
+    text-decoration: none; /* remove built in underscore */
+    color: white; /* remove built in blue/purple link styling */
+    padding: 8px;                   /* Preparation for hover functionality */
     border-radius: 4px;
 }
 nav a:hover {
-    background-color: #00AA89;    /* Byter bakgrund on hover "pseudoklass" */ 
+    background-color: #00AA89;    /* Change background on hover "pseudoclass" */ 
 }
 
-/* Allmängällande stilar */
+/* General styling */
 body {
     background-color: #3D3D3D;
     margin: 0;
@@ -70,7 +70,7 @@ footer {
     padding: 5px;
 }
 
-/* Responsiv styling */
+/* Responsive styling */
 @media (max-width: 640px) {
     header {
         display: block;

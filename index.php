@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dennis Dejtar</title>
+    <title>Dennis is Dating</title>
     <link rel="stylesheet" href="../style.css">
     <script src="./script.js" defer></script>
 </head>
@@ -16,13 +16,13 @@
         <section>
 
             <article>
-                <h2>Välkommen till dennis dejtar!</h2>
+                <h2>Welcome to Dennis Dating!</h2>
                 <?php include "./view_profiles.php" ?>
             </article>
 
         </section>
 
-        <!-- Footern innehåller t.ex. somelänkar och kontaktuppg -->
+        <!-- The footer contains social media links and contact details -->
         <footer>
             Made by Dennis<sup>&#169;</sup>
         </footer>
